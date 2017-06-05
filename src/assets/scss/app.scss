@@ -4,11 +4,8 @@
 @import 'template/template';
 
 .container {
-    width: 650px !important;
+    width: 600px !important;
 }
-// th {
-//     background: #343b43;
-// }
 .top-col {
     padding: 10px 0;
     background: #252a30;
@@ -42,7 +39,7 @@
     }
 }
 table.header {
-    height: 345px;
+    height: 400px;
     background: #1fb6af;
     .header-textual {
         padding-top: 50px;
@@ -54,12 +51,16 @@ table.header {
             line-height: 48px;
         }
         .header-text {
-            margin-bottom: 50px;
+            margin-bottom: 20px;
+            Margin-bottom: 20px;
             color: #bce9e7;
             font-family: Arial;
             font-size: 14px;
             font-weight: 400;
             line-height: 22px;
+        }
+        .header-bg {
+            background: #1fb6af;
         }
         .header-btn {
             padding: 26px 32px;
@@ -130,6 +131,7 @@ table.header {
 }
 .latest {
     .list-item {
+        height: 38px;
         padding-left: 10px;
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #b8b8b8;
@@ -148,16 +150,16 @@ table.header {
 }
 .networks {
     margin-top: 30px;
-    .fb,
-    .tw {
-        vertical-align: middle;
+    Margin-top: 30px;
+    .network-link {
+        height: 107px;
+        display: block;
+        width: 100%;
     }
     .fb {
-        height: 107px;
         background: #318dff;
     }
     .tw {
-        height: 107px;
         background: #00c0ff;
     }
 }
@@ -185,4 +187,5 @@ table.header {
 }
 .footer-logo {
     margin: 30px 0 15px 0;
+    Margin: 30px 0 15px 0;
 }
