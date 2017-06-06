@@ -96,6 +96,12 @@ th.large-1 {
   padding-left: 8px;
   padding-right: 8px; }
 
+th.large-1.first {
+  padding-left: 16px; }
+
+.collapse th.large-1.first {
+  width: 56.33333px; }
+
 .body .columns th.large-1 {
   width: 8.33333%; }
 
@@ -227,6 +233,20 @@ th.large-10.last {
 
 .collapse th.large-10.last {
   width: 491.33333px; }
+
+th.large-11 {
+  width: 515.66667px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-11.last {
+  padding-right: 16px; }
+
+.collapse th.large-11.last {
+  width: 539.66667px; }
+
+.body .columns th.large-11 {
+  width: 91.66667%; }
 
 th.large-12 {
   width: 564px;
@@ -423,6 +443,9 @@ table.button:active table a {
   th.small-10 {
     display: inline-block !important;
     width: 83.33333% !important; }
+  th.small-11 {
+    display: inline-block !important;
+    width: 91.66667% !important; }
   th.small-12 {
     display: inline-block !important;
     width: 100% !important; }
@@ -432,7 +455,8 @@ table.button:active table a {
 
 body,
 html,
-.body {
+.body,
+.spacer {
   background: #343b43 !important; }
 
 .header {
@@ -540,16 +564,20 @@ table.header {
     vertical-align: middle;
     text-align: center; }
 
-.latest .list-item {
-  height: 38px;
-  padding-left: 10px;
+.latest .list-item-wrap {
   border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #b8b8b8;
+  border-bottom: 1px solid #b8b8b8; }
+
+.latest .list-item {
+  margin-bottom: 10px;
+  Margin-bottom: 10px;
+  margin-top: 10px;
+  Margin-top: 10px;
   color: #e26352;
   font-family: Arial;
   font-size: 12px;
   font-weight: 400;
-  line-height: 38px; }
+  text-indent: 10px; }
 
 .latest .odd {
   background: #e6e6e6; }

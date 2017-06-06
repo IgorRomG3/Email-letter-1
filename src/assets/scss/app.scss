@@ -127,16 +127,20 @@ table.header {
     }
 }
 .latest {
-    .list-item {
-        height: 38px;
-        padding-left: 10px;
+    .list-item-wrap {
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #b8b8b8;
+    }
+    .list-item {
+        margin-bottom: 10px;
+        Margin-bottom:10px;
+        margin-top: 10px;
+        Margin-top:10px;
         color: #e26352;
         font-family: Arial;
         font-size: 12px;
         font-weight: 400;
-        line-height: 38px;
+        text-indent: 10px;
     }
     .odd {
         background: #e6e6e6;
